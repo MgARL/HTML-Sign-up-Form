@@ -12,21 +12,43 @@
     </nav>
     <main>
         <h2>Vacation Contest Sign-Up Form</h2>
-        <form> <!-- TODO: Set Action and Method Properties -->
+        <form method="get" action="results.html"> <!-- TODO: Set Action and Method Properties -->
             <div>
                 <label for="firstname">Your First Name</label>
                 <input type="text" id="firstname" name="firstname">
                 <!-- TODO: Create a "lastname" input with type "text" -->
+                <label for="lastname">Your Last Name</label>
+                <input type="text" id="lastname" name="lastname">
+                <!-- Todo: Email Input -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
             </div>
             <!-- TODO: Make fieldset and legend -->
-            <!-- Todo: Email Input -->
-            <!-- Todo: Street Address Input -->
-            <!-- Todo: City, State, and Zip Inputs -->
+            <fieldset>
+                <legend>Address</legend>
+                <!-- Todo: Street Address Input -->
+                <label for="streetadress">Street Adress:</label>
+                <input type="text" id="streetadress" name="streetadress">
+                <!-- Todo: City, State, and Zip Inputs -->
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city">
 
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state">
+
+                <label for="zipcode">Zip Code:</label>
+                <input type="number" id="zipcode" name="zipcode">
+
+            </fieldset>
+
+            </fieldset>
+
+            <fieldset>
             <!-- TODO: Second fieldset -->
             <!-- TODO: Radio buttons for selecting preferred destination -->
             <!-- TODO: Color input for selecting favorite color -->
             <!-- TODO: Checkboxes for selecting extra add-ons -->
+        </fieldset>
             
             <!-- TODO: Submit Button -->
         </form>
